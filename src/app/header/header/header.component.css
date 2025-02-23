@@ -1,0 +1,45 @@
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+    color: blueviolet !important;
+    
+}
+
+.logo-custom{
+    /* border: 2px solid rgb(62, 28, 233); */
+    border-radius: 30px;
+}
+.custom-a{
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid blueviolet;
+    border-radius: 15px;
+    background-color: blueviolet;   
+    font-size: 15px ;
+    font-weight: 700;
+    width: 80px;
+    text-align: center;
+    color: floralwhite;
+}
+
+.custom-a:hover{
+    background-color: green;
+}
+
+.container-custom{
+    /* background-color: rgb(125, 91, 91); */
+    /* height: 500px; */
+    border: 2px solid blueviolet;
+}
+
+
+.caro-img{
+    height: 300px;
+    width: 100%;
+}
+.caro-text{
+    text-align: justify;
+    overflow: auto;
+}
+.collapse{
+    color: darkblue;
+}

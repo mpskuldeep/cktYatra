@@ -1,0 +1,182 @@
+.custom-a:hover{
+    background-color: green;
+}
+
+.container-custom{
+    /* background-color: rgb(125, 91, 91); */
+    /* height: 500px; */
+    border: 2px solid rgb(17, 0, 255);
+}
+
+.sliding-row{
+    background-image: url("https://files.yappe.in/place/full/ramghat-chitrakoot-7169226.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.caro-img{
+    height: 300px;
+    width: 100%;
+}
+.caro-text{
+    text-align: justify;
+    overflow: auto;
+}
+
+
+/* common div attributes  */
+#header_text{
+    text-align: center;
+    color: rgb(32, 3, 107);
+}
+.div_decoration{
+    /* border: 2px solid green; */
+    box-shadow: 15px 15px 15px 0.5px rgb(56, 57, 55);
+    height: 350px;
+}
+
+
+.div_img img{
+    height: 310px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    border: 2px solid black;
+    box-shadow: 15px 15px 15px 0.5px rgb(91, 90, 90);
+}
+.two_row_div_img img{
+    height: 150px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 15px 15px 15px 0.5px rgb(91, 90, 90);
+}
+.div_text{
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px 0.5px rgb(91, 90, 90);
+    margin-left: 30px;
+    max-height: 330px;
+    overflow: scroll;
+    margin-right: 20px;
+    background-color: darkslategrey;
+    color: white;
+}
+
+.div_text p{
+    text-align: justify;
+    text-indent: 25px;
+
+}
+
+.card{
+    border: 0px;
+    border-bottom: 5px solid rebeccapurple !important;
+    height: 25rem;
+}
+.card img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-body{
+    width: 100%;
+}
+.card-text{
+    /* border: 2px solid rgb(123, 0, 255);
+    background-color: yellowgreen; */
+    text-align: center;
+    /* border-radius: 30px; */
+    margin-top: -10px;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+.explore-div-col .card {
+    /* margin: 0 50px; */
+    /* background-color: aquamarine; */
+    /* border-radius: 20px; */
+}
+
+.explore-div-col {
+    display: flex;
+    flex: 0 0 auto;
+    overflow: hidden;
+    margin: 0 5px;
+    /* border: 2px solid green; */
+    /* background-color: antiquewhite; */
+}
+
+
+#explore-caro-btn-next span{
+    margin-right:-80%;
+    background-color: blueviolet;
+    border-radius: 50px;
+}
+
+#explore-caro-btn-pre span{
+    margin-left: -80%;
+    background-color: blueviolet;
+    border-radius: 50px;
+}
+#hanuman_dhara{
+    background-color: aqua;
+    height: 300px;
+    border: 2px solid red;
+}
+#explore_div{
+    height: 400px;
+}
+
+
+.parellex_img1{
+    height: 500px;
+    background-image: url("https://img.traveltriangle.com/blog/wp-content/uploads/2020/03/shutterstock_14324283861.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.parllex_text{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 30px;
+}
+.parellex_img2{
+    height: 500px;
+    background-image: url("https://newstrack.com/h-upload/2022/07/10/1356182-places-to-visit-in-chitrakoot.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.parellex_img3{
+    height: 500px;
+    background-image: url("https://d368ufu7xgcs86.cloudfront.net/16592-1564485304.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.parellex_img4{
+    height: 500px;
+    background-image: url("https://images.firstpost.com/wp-content/uploads/2022/07/Bundelkhand-3-640.jpg?im=FitAndFill=(1200,675)");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.detail_text{
+    height: 350px;
+    text-align: justify;
+    overflow: scroll;
+    font-style: oblique;
+    font-family: serif;
+}

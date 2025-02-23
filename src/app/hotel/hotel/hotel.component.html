@@ -1,0 +1,35 @@
+  <div class="outer">
+    <div *ngFor="let hotel of hotelDetails" class="row"
+      style="margin-top: 2%;margin-bottom: 5%; border: 1px blueviolet solid;">
+      <div class="col-md-3">
+        <img style="width:240px; aspect-ratio:auto 240 / 240; height:240px" src="{{hotel.hotelImage}}">
+      </div>
+      <div class="col-md-9">
+          <div class="row">
+            <!-- Hotel Information Block -->
+            <div class="col-md-8">
+              <div style="display: flex;">
+                <p>
+                <h3>{{hotel.name}}</h3>
+                <span>&nbsp;&nbsp;Rating : {{hotel.rating}}</span>
+              </div>
+              <p><strong>Location:</strong> {{hotel.location}}</p>
+              <p>{{hotel.distance}}</p>
+              <p><strong>Review:</strong> {{hotel.review}}</p>
+            </div>
+
+            <!-- Room and Price Information -->
+            <div class="col-md-4">
+              <h4>{{hotel.roomType}}</h4>
+              <ul>
+                <li>{{hotel.bedType}}</li>
+                <li>{{hotel.availability}}</li>
+              </ul>
+              <p><strong>Price:</strong> {{hotel.price}}</p>
+              <button class="btn btn-primary" [disabled]=true>See availability</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>

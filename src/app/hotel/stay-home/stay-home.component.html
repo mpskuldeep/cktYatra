@@ -1,0 +1,37 @@
+<div class="container">
+
+    <h4>Browse by property type</h4>
+
+    <!--Carosuel start -->
+    <div class="col-md-12">
+        <div class="row">
+
+            <div class="col" *ngFor="let category of stayCategory">
+                <div class="card" (click)="getStayType(category.type)">
+                    <img src="{{category.image}}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">{{category.type}}</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Carosuel end-->
+     <div *ngIf="selectCategory==='Hotel'">
+        <div class="container-custom" style="text-align: center; color: red;">
+            <h3>Currently we are not offering online Hotel booking</h3>
+          </div>
+        <app-hotel></app-hotel>
+     </div>
+     <div *ngIf="selectCategory==='Dharmshala'">
+       <app-dharmshala></app-dharmshala>
+     </div>
+     <div *ngIf="selectCategory==='Guest House'">
+        <app-in-progress></app-in-progress>
+     </div>
+     <div *ngIf="selectCategory==='Homestays'">
+        <app-in-progress></app-in-progress>        
+     </div>
+</div>
