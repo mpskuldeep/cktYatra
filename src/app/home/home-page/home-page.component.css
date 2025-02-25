@@ -86,20 +86,12 @@
     width: 100%;
 }
 .card-text{
-    /* border: 2px solid rgb(123, 0, 255);
-    background-color: yellowgreen; */
     text-align: center;
-    /* border-radius: 30px; */
+  
     margin-top: -10px;
     font-size: 20px;
     font-weight: 600;
     
-}
-
-.explore-div-col .card {
-    /* margin: 0 50px; */
-    /* background-color: aquamarine; */
-    /* border-radius: 20px; */
 }
 
 .explore-div-col {
@@ -107,8 +99,6 @@
     flex: 0 0 auto;
     overflow: hidden;
     margin: 0 5px;
-    /* border: 2px solid green; */
-    /* background-color: antiquewhite; */
 }
 
 
